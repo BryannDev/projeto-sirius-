@@ -197,6 +197,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
   }
+  
 }
 
 .btn {
@@ -357,6 +358,7 @@ p {
   border-radius: 30px;
   padding: 8px 30px;
 }
+
 .section-title-five h2 {
   margin-bottom: 15px;
 }
@@ -1344,15 +1346,16 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%);
   z-index: 0;
 }
 .pricing-style-fourteen:hover {
-  box-shadow: var(--shadow-4);
+  /* box-shadow: var(--shadow-4); */
+  border: 3px var(--primary)  solid;
 }
 .pricing-style-fourteen.middle {
   box-shadow: var(--shadow-4);
 }
 .pricing-style-fourteen.middle .title {
   border-color: var(--primary);
-  background: var(--primary);
-  color: var(--white);
+  background:var(--white) ;
+  color: var(--primary);
 }
 .pricing-style-fourteen .title {
   font-weight: 500;
@@ -1382,7 +1385,7 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%);
   color: var(--dark-3);
   font-size: 20px;
   position: absolute;
-  left: 0;
+  left: -12px;
   top: 6px;
 }
 .pricing-style-fourteen .duration {
@@ -1924,4 +1927,66 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%);
 
 .boston{
   margin-top: -130px;
+}
+.con1
+{
+ 
+ 
+}
+.con2{
+  
+}
+.con3{
+ 
+}
+.escondido{
+  display: none;
+}
+.plan1,.plan2,.plan3{
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  background-color: white;
+  border-radius: 30px;
+  padding: 8px 30px;
+  word-wrap: normal;
+}
+
+.plan1:hover,.plan2:hover,.plan3:hover{
+  font-weight: 600;
+  display: inline-block;
+ 
+  color: white;
+  border: 2px solid white;
+  background-color: var(--primary);
+  border-radius: 30px;
+  
+}
+.buttons-price{
+  /* display: flex; */
+
+  
+}
+
+.con1 > h1{
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary);
+  border-bottom: var(--primary) 5px solid;
+}
+.con2 > h1{
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary);
+  border-bottom: var(--primary) 5px solid;
+}
+.con3 > h1{
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary);
+  border-bottom: var(--primary) 5px solid;
 }

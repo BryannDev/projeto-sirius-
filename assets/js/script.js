@@ -27,3 +27,46 @@ sideMenuLeftNine.addEventListener("click", function () {
   sidebarLeft.classList.add("open");
   overlayLeft.classList.add("open");
 });
+
+
+//  ===== Price
+
+
+var con1;
+var con2;
+var con3;
+window.onload = function(){
+ 
+   
+
+con1 = document.getElementById("con1");
+con2 = document.getElementById("con2");
+con3 = document.getElementById("con3");
+
+ var plan1 = document.getElementById ("plan1");
+plan1.onclick = MostrarCon1;
+
+var plan2 = document.getElementById ("plan2");
+plan2.onclick = MostrarCon2;
+var plan3 = document.getElementById ("plan3");
+plan3.onclick = MostrarCon3;
+
+con1.classList.remove("escondido");
+con2.classList.add("escondido");
+con3.classList.add("escondido");
+}
+function MostrarCon1(){
+  con1.classList.remove("escondido")
+  con2.classList.add("escondido")
+  con3.classList.add("escondido")
+}
+function MostrarCon2(){
+  con1.classList.add("escondido")
+  con2.classList.remove("escondido")
+  con3.classList.add("escondido")
+}
+function MostrarCon3(){
+  con1.classList.add("escondido")
+  con2.classList.add("escondido")
+  con3.classList.remove("escondido")
+}

@@ -11,6 +11,8 @@
   <!--====== Title ======-->
   <title>Business | Bootstrap 5 Business Template</title>
 
+  <!--====== favicon ======-->
+  <link rel="icon" type="image/x-icon" href="assets/images/logo-white.png">
   <!--====== Bootstrap css ======-->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
@@ -286,12 +288,17 @@
         <div class="row">
           <div class="col-12">
             <div class="content">
-              <h6>Pricing</h6>
-              <h2 class="fw-bold">Pricing & Plans</h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form.
-              </p>
+              
+              <h2 class="fw-bold">Planos</h2>
+              <h5>
+                Escolha o melhor plano para você ⭐
+              </h5>
+              <div class="buttons-price">
+              <button id="plan1" class="plan1">Basic</button>
+              <button id="plan2"  class="plan2">Expert</button>
+              <button  id="plan3"  class="plan3">Master</button>
+            </div>
+           
             </div>
           </div>
         </div>
@@ -300,32 +307,125 @@
       <!-- container -->
     </div>
     <!--======  End Section Title Five ======-->
-    <div class="container">
+    <div id="con1" class="container con1 ">
+      <h1> No plano <b>Basic</b> você terá 1 aula por semana</h1>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-12">
           <div class="pricing-style-fourteen">
             <div class="table-head">
-              <h6 class="title">Starter</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and industry.</p>
+              <h6 class="title">Sem fidelidade</h6>
+              <h4></h4>
                 <div class="price">
                   <h2 class="amount">
-                    <span class="currency">$</span>0<span class="duration">/mo </span>
+                    <span class="currency">R$</span>279,99<span class="duration">MÊS </span>
                   </h2>
                 </div>
             </div>
 
             <div class="light-rounded-buttons">
               <a href="javascript:void(0)" class="btn primary-btn-outline">
-                Start free trial
+                Assinar
               </a>
             </div>
 
             <div class="table-content">
               <ul class="table-list">
-                <li> <i class="lni lni-checkmark-circle"></i> Cras justo odio.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Dapibus ac facilisis in.</li>
-                <li> <i class="lni lni-checkmark-circle deactive"></i> Morbi leo risus.</li>
-                <li> <i class="lni lni-checkmark-circle deactive"></i> Excepteur sint occaecat velit.</li>
+                <li> <i class="lni lni-checkmark-circle"></i> Comece e pare quando quiser.</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 69,99 por encontro.</li>
+                <li> <i class="lni lni-checkmark-circle"></i>4 encontros por mensalidade paga</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">Fidelidade de 6 meses</h6>
+              <h4></h4>
+                <div class="price">
+                  <h2 class="amount">
+                    <span class="currency">R$</span>199,99<span class="duration">/MÊS </span>
+                  </h2>
+                </div>
+            </div>
+
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">
+                Assinar
+              </a>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li> <i class="lni lni-checkmark-circle"></i> 1 encontro por semana</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 49,99 por encontro</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 1199,94 ou 6x R$ 199,99</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 24 encontros por semestre</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">Fidelidade de 12 meses</h6>
+              <h4></h4>
+                <div class="price">
+                  <h2 class="amount">
+                    <span class="currency">R$</span>179,99<span class="duration">MÊS </span>
+                  </h2>
+                </div>
+            </div>
+
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">
+                Assinar
+              </a>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li> <i class="lni lni-checkmark-circle"></i> 1 encontro por semana</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 44,99 por encontro</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 2159,88 ou 12x R$ 179,99</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 48 encontros no ano</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="con2" class="container con2 ">
+      <h1> No plano <b>Expert</b> você terá 2 aulas por semana</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">Sem fidelidade</h6>
+              <h4></h4>
+              <div class="price">
+                <h2 class="amount">
+                  <span class="currency">R$</span>559,99<span class="duration">MÊS </span>
+                </h2>
+              </div>
+          </div>
+
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">
+                Assinar
+              </a>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li> <i class="lni lni-checkmark-circle"></i> Comece e pare quando quiser.</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 149,99 por encontro</li>
+                <li> <i class="lni lni-checkmark-circle"></i>8 encontros por mensalidade paga</li>
+                
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
               </ul>
             </div>
           </div>
@@ -333,27 +433,28 @@
         <div class="col-lg-4 col-md-6 col-12">
           <div class="pricing-style-fourteen middle">
             <div class="table-head">
-              <h6 class="title">Exclusive</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and industry.</p>
+              <h6 class="title">Fidelidade de 6 meses</h6>
+              <h4></h4>
                 <div class="price">
                   <h2 class="amount">
-                    <span class="currency">$</span>99<span class="duration">/mo </span>
+                    <span class="currency">R$</span>399,99<span class="duration">MÊS </span>
                   </h2>
                 </div>
             </div>
 
             <div class="light-rounded-buttons">
-              <a href="javascript:void(0)" class="btn primary-btn">
-                Start free trial
+              <a href="javascript:void(0)" class="btn primary-btn-outline">
+                Assinar
               </a>
             </div>
 
             <div class="table-content">
               <ul class="table-list">
-                <li> <i class="lni lni-checkmark-circle"></i> Cras justo odio.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Dapibus ac facilisis in.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Morbi leo risus.</li>
-                <li> <i class="lni lni-checkmark-circle deactive"></i> Excepteur sint occaecat velit.</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 2 encontros por semana</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 49,99 por encontro</li>
+                <li> <i class="lni lni-checkmark-circle"></i>R$ 2399,94 ou 6x R$ 399,99</li>
+                <li> <i class="lni lni-checkmark-circle"></i>48 encontros </li>
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
               </ul>
             </div>
           </div>
@@ -361,33 +462,124 @@
         <div class="col-lg-4 col-md-6 col-12">
           <div class="pricing-style-fourteen">
             <div class="table-head">
-              <h6 class="title">Premium</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and industry.</p>
-                <div class="price">
-                  <h2 class="amount">
-                    <span class="currency">$</span>150<span class="duration">/mo </span>
-                  </h2>
-                </div>
-            </div>
+              <h6 class="title">Fidelidade de 12 meses</h6>
+              <h4></h4>
+              <div class="price">
+                <h2 class="amount">
+                  <span class="currency">R$</span>359,99<span class="duration">MÊS </span>
+                </h2>
+              </div>
+          </div>
 
             <div class="light-rounded-buttons">
               <a href="javascript:void(0)" class="btn primary-btn-outline">
-                Start free trial
+                Assinar
               </a>
             </div>
 
             <div class="table-content">
               <ul class="table-list">
-                <li> <i class="lni lni-checkmark-circle"></i> Cras justo odio.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Dapibus ac facilisis in.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Morbi leo risus.</li>
-                <li> <i class="lni lni-checkmark-circle"></i> Excepteur sint occaecat velit.</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 2 encontros por semana</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 44,99 por encontro</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 4,319 ou 12x R$ 359,99</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 96 encontros</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+     <div id="con3" class="container con3 ">
+      <h1>No plano  <b>Master</b> você terá 3 aulas por semana</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">Sem fidelidade</h6>
+              <h4></h4>
+              <div class="price">
+                <h2 class="amount">
+                  <span class="currency">R$</span>839,99<span class="duration">MÊS </span>
+                </h2>
+              </div>
+          </div>
+
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">
+                Assinar
+              </a>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li> <i class="lni lni-checkmark-circle"></i> Comece e pare quando quiser.</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 69,99 por encontro</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 12 encontros por mensalidade paga</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen middle">
+            <div class="table-head">
+              <h6 class="title">Fidelidade de 6 meses</h4>
+                <h4></h4>
+                <div class="price">
+                  <h2 class="amount">
+                    <span class="currency">R$</span>599,99<span class="duration">MÊS </span>
+                  </h2>
+                </div>
+            </div>
+
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">
+                Assinar
+              </a>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li> <i class="lni lni-checkmark-circle"></i> 3 encontros por semana</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 49,99 por encontro</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 3599,94 ou 6x R$ 599,99</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 72 encontros </li>
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title"> Fidelidade de 12 meses</h6>
+              <h4></h4>
+              <div class="price">
+                <h2 class="amount">
+                  <span class="currency">R$</span>539,99<span class="duration">MÊS </span>
+                </h2>
+              </div>
+          </div>
+
+            <div class="light-rounded-buttons">
+              <a href="javascript:void(0)" class="btn primary-btn-outline">
+                Assinar
+              </a>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li> <i class="lni lni-checkmark-circle"></i> 3 encontros por semana</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 44,99 por encontro</li>
+                <li> <i class="lni lni-checkmark-circle"></i> R$ 6,479,88 ou 12x R$ 539,99</li>
+                <li> <i class="lni lni-checkmark-circle"></i> 144 encontros </li>
+                <li> <i class="lni lni-checkmark-circle"></i> 60min - encontro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
   </section>
   <!--/ End Pricing  Area -->
 
@@ -582,6 +774,7 @@
   </a>
 
   <script src="assets/js/script.js"></script>
+  
 </body>
 
 </html>

@@ -1976,17 +1976,28 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%); */
   font-size: 2rem;
   text-align: center;
   color: var(--primary);
-  border-bottom: var(--primary) 5px solid;
+  /* border-bottom: var(--primary) 5px solid; */
 }
 .con2 > h1{
   font-size: 2rem;
   text-align: center;
   color: var(--primary);
-  border-bottom: var(--primary) 5px solid;
+  /* border-bottom: var(--primary) 5px solid; */
 }
 .con3 > h1{
   font-size: 2rem;
   text-align: center;
   color: var(--primary);
-  border-bottom: var(--primary) 5px solid;
+  /* border-bottom: var(--primary) 5px solid; */
+}
+
+.con1 >  p{
+  text-align: center;
+}
+.con2 >  p{
+  text-align: center;
+}
+
+.con3 >  p{
+text-align: center;
 }

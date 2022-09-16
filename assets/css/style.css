@@ -725,6 +725,12 @@ p {
     right: 70px;
     top: 7px;
   }
+ 
+}
+@media(max-width: 574px){
+  .navbar-brand > img{
+    width: 34%;
+  }
 }
 @media (max-width: 767px) {
   .navbar-area.navbar-nine .navbar .navbar-btn {

@@ -70,3 +70,6 @@ function MostrarCon3(){
   con2.classList.add("escondido")
   con3.classList.remove("escondido")
 }
+function ativo(){
+ ativo.classList.add(".active")
+}

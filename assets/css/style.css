@@ -1103,7 +1103,10 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%); */
 .about-five-content .about-five-tab nav button.active {
   background-color: var(--primary);
   color: var(--white);
+  
 }
+
+
 .about-five-content .about-five-tab nav button:last-child {
   margin-right: 0;
 }
@@ -2006,4 +2009,8 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%); */
 
 .con3 >  p{
 text-align: center;
+}
+.active {
+  background-color: var(--primary);
+  color: var(--white);
 }

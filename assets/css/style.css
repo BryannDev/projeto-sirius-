@@ -1114,7 +1114,7 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%); */
   color: var(--primary);
 }
 .about-five-content .about-five-tab nav button.active {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   color: var(--white);
   
 }
@@ -2027,7 +2027,7 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%); */
 .con3 >  p{
 text-align: center;
 }
-.active:hover {
+/* .active:hover {
   background-color: var(--primary);
   color: var(--white);
-}
+} */

@@ -731,13 +731,25 @@ p {
   .navbar-brand > img{
     width: 34%;
   }
+  .padding-bottom {
+    padding-bottom: 0px !important;}
+    .buttons-price{
+      /* display: flex; */
+    }
+      .plan1,.plan2,.plan3{
+        margin-left: 1px !important;
+      }
 }
+
+
+
 @media (max-width: 767px) {
   .navbar-area.navbar-nine .navbar .navbar-btn {
     position: absolute;
     right: 60px;
     top: 7px;
   }
+
 }
 .navbar-area.navbar-nine .navbar .navbar-btn .menu-bar {
   font-size: 22px;
@@ -1353,6 +1365,10 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%); */
   padding: 50px 35px;
   text-align: center;
   z-index: 0;
+}
+.padding-bottom {
+  padding-bottom: 5.2rem !important;
+  
 }
 .pricing-style-fourteen:hover {
   /* box-shadow: var(--shadow-4); */
@@ -2010,7 +2026,7 @@ box-shadow: 10px 10px 0px 4px rgb(5 0 255 / 27%); */
 .con3 >  p{
 text-align: center;
 }
-.active {
+.active:hover {
   background-color: var(--primary);
   color: var(--white);
 }

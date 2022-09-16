@@ -319,7 +319,7 @@
       <p>60 minutos por encontro 1 aula por semana = 4 horas/aulas por mês</p>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-12">
-          <div class="pricing-style-fourteen">
+          <div class="pricing-style-fourteen padding-bottom">
             <div class="table-head">
               <h6 class="title">Sem fidelidade</h6>
               <h4></h4>
@@ -414,7 +414,7 @@
       <p>60 minutos por encontro 2 aulas por semana = 8 horas/aulas por mês</p>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-12">
-          <div class="pricing-style-fourteen">
+          <div class="pricing-style-fourteen padding-bottom">
             <div class="table-head">
               <h6 class="title">Sem fidelidade</h6>
               <h4></h4>
@@ -510,7 +510,7 @@
       <p>60 minutos por encontro 3 aulas por semana = 12 horas/aulas por mês</p>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-12">
-          <div class="pricing-style-fourteen">
+          <div class="pricing-style-fourteen padding-bottom">
             <div class="table-head">
               <h6 class="title">Sem fidelidade</h6>
               <h4></h4>
@@ -602,7 +602,30 @@
   </section>
   <!--/ End Pricing  Area -->
 
+  <script>
+    document.querySelector('.plan1').addEventListener('click', (e)=>{
+        e.target.classList.toggle('active');
+        document.body.classList.toggle('dark');
 
+
+      });
+        document.querySelector('.plan2').addEventListener('click', (e)=>{
+        e.target.classList.toggle('active');
+        document.body.classList.toggle('dark');
+
+       
+      });
+        document.querySelector('.plan3').addEventListener('click', (e)=>{
+        e.target.classList.toggle('active');
+        document.body.classList.toggle('dark');
+
+        if( document.querySelector('.plan2 ') = document.querySelector('.plan2 active') ){
+          active.classList.remove("active");
+        };
+    });
+
+    
+</script>
 
 
 

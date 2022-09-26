@@ -2031,3 +2031,7 @@ text-align: center;
   background-color: var(--primary);
   color: var(--white);
 } */
+
+.table-list > li{
+  white-space: nowrap;
+}
